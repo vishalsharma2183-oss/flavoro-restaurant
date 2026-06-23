@@ -469,6 +469,12 @@ align-items: center;
         width: 80%;
         text-align: center;
     }
+    .whatsapp{
+        font-size: 14px;
+    }
+    .status{
+        font-size: 14px;
+    }
 }
 .whatsAppContact .whatsapp{
     border: none;
@@ -562,4 +568,5 @@ align-items: center;
     font-weight: bold;
 }
 .footer img{
-    margin:5px;}
+    margin: 5px;
+}
