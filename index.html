@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Restaraunt_Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Flavoro</div>
+            <button class="hamburger"><img src="hamburger.svg" alt=""></button>
+            <ul class="navs show">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#reservation">
+                <button class="nav_btn" id="booktable">Book Table</button>
+            </a>
+
+        </nav>
+        <div class="hero" id="home">
+            <h3 class="fst">Welcome to Flavoro</h3>
+            <h2 class="scnd">Good Food</h2>
+            <h2 class="thrd"><span>Great</span> Mood</h2>
+            <p class="para">We serve delicious food made with fresh<br> ingredients and a lot of love.</p>
+            <div class="foot">
+                <a href="#reservation">
+                    <button class="nav_btn">Book Table</button>
+                </a>
+                <a href="#menu">
+                    <button class="explore">Explore Menu</button>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="main" id="about">
+            <div class="text">
+                <h3 class="fst" id="fst">About Us</h3>
+                <h2 class="scnd">We Cook New Recipe <br> Everyday</h2>
+                <p class="para">At Flavoro, We belive in combining taste, quality <br> and passion. Our chefs crafts
+                    every dish with the <br> freshest ingredients to give you an unforgettable <br> dining experience.
+                </p>
+                <button class="nav_btn" id="learn">Learn More</button>
+            </div>
+            <div class="card">
+                <div class="image"><img src="chef.jpg" alt="" class="round_card"></div>
+                <h2>Expert Chefs</h2>
+                <p>Our chefs are highly skilled <br> and passionate about food.</p>
+            </div>
+            <div class="line"></div>
+            <div class="card">
+                <div class="image"><img src="leaf.jpg" alt="" class="round_card"></div>
+                <h2>Fresh Ingredients</h2>
+                <p>We use only freshest <br>ingredients for our dishes.</p>
+            </div>
+            <div class="line"></div>
+            <div class="card">
+                <div class="image"><img src="heart.png" alt="" class="round_card"></div>
+                <h2>Made With Love</h2>
+                <p>Every meal is cooked <br> with love and care.</p>
+            </div>
+
+        </div>
+        <div class="section" id="menu">
+            <h3 class="fst">OUR SPECIAL MENU</h3>
+            <h2 class="scnd">Popular Dishes</h2>
+            <div class="cards-section">
+                <div class="cards">
+                    <img src="pasta.jpg" alt="">
+                    <h3>Penne Arrabbiata</h3>
+                    <p>Price: 499₹</p>
+                    <p>Spicy Penne pasta in a rich tomato <br> sauce with hervbs.</p>
+                </div>
+                <div class="cards">
+                    <img src="burger.jpg" alt="">
+                    <h3>Classic Burger</h3>
+                    <p>Price: 299₹</p>
+                    <p>Juicy grilled burger with cheese,<br> lettuce,and our special sauce.</p>
+                </div>
+                <div class="cards">
+                    <img src="salmon.jpg" alt="">
+                    <h3>Grilled Salmon</h3>
+                    <p>Price: 1299₹</p>
+                    <p>Fresh Salmon grilled to perfection <br>served with veggies.</p>
+                </div>
+                <div class="cards">
+                    <img src="cake.jpg" alt="">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Price: 699₹</p>
+                    <p>Warm chocolate cake with a molten<br>center served with ice cream.</p>
+                </div>
+            </div>
+
+        </div>
+        <section class="gallery" id="gallery">
+            <h2 class="scnd margin center">Gallery </h2>
+            <div class="food galleryitems">
+                <img src="food1.jpg" alt=""><img src="food2.jpg" alt=""><img src="food3.jpg" alt=""><img src="food4.jpg"
+                    alt="">
+            </div>
+            <div class="interior galleryitems">
+                <img src="int1.jpg" alt=""><img src="img2.jpg" alt=""><img src="int3.jpg" alt=""><img src="int4.jpg"
+                    alt="">
+            </div>
+        </section>
+        <div class="special-offer">
+            <div class="text-special-offer">
+                <h3 class="fst" id="fst2">Special Offer</h3>
+                <h2 class="special-offer-h2">Get 20% off on your first order!</h2>
+                <p>Use code FLAVORO20 at checkout. </p>
+            </div>
+
+            <button class="nav_btn">Order Now</button>
+        </div>
+        <section class="reservation" id="reservation">
+            <form action="" class="reservation-form">
+                <h2 class="fst">Book a Table</h2>
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="number" placeholder="Phone no." required>
+                <input type="date" required>
+                <input type="time" required>
+                <input type="number" placeholder="Number of guests" min="1" required>
+                <button type="submit">Reserve Table</button>
+
+            </form>
+        </section>
+        <div class="testimonials" id="testimonials">
+            <div class="text">
+                <h3 class="fst">WHAT OUR CUSTOMERS SAY</h3>
+                <h2 class="scnd">Testimonials</h2>
+                <div class="review-container">
+
+
+                    <div class="reviews">
+                        <span style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span>
+                        <p>The best restaraunt I've ever visited. <br> Amazing food and great service!</p>
+                        <div class="margin">
+                            <img src="frgn1.jpg" alt="">
+                            <p class="bold">Sarah Jonson</p>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <span class="star">&#9733;</span><span class="star">&#9733;</span><span
+                            class="star">&#9733;</span><span class="star">&#9733;</span><span
+                            class="star">&#9733;</span>
+                        <p>The best restaraunt I've ever visited. <br> Amazing food and great service!</p>
+                        <div class="margin">
+                            <img src="frgn3.jpg" alt="">
+                            <p class="bold">Max Jane</p>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <span style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span>
+                        <p>The best restaraunt I've ever visited. <br> Amazing food and great service!</p>
+                        <div class="margin">
+                            <img src="frgn2.jpg" alt="">
+                            <p class="bold">Mary Patrick</p>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <span style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span><span
+                            style="color: orange; font-size: 24px;">&#9733;</span>
+                        <p>The best restaraunt I've ever visited. <br> Amazing food and great service!</p>
+                        <div class="margin">
+                            <img src="frgn4.jpg" alt="">
+                            <p class="bold">Olivia Nolan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7525.677391440527!2d72.83444117426083!3d19.419374241105054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a9590ee6f6af%3A0x9c151c75016edf03!2sEmersion%20classes!5e0!3m2!1sen!2sin!4v1782209805193!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="footer" id="contact">
+            <div class="first">
+                <h3 class="headinglast">Flavoro</h3>
+                <p>Good food, great moood.</p>
+                <p>Visit us and enjoy an <br> unforgettable experience.</p>
+                <img src="facebook.svg" alt=""><img src="instagram.svg" alt=""><img src="twitter.svg" alt=""><img
+                    src="youtube.svg" alt="">
+            </div>
+            <div class="second">
+                <h3 class="headinglast">Quick Links</h3>
+                <p>Home</p>
+                <p>About</p>
+                <p>Gallery</p>
+                <p>Contact</p>
+            </div>
+            <div class="third">
+                <h3 class="headinglast">Contac Info</h3>
+                <div> <img src="location.svg" alt=""><span class="margin">123, Food Street, Delicious City, MH
+                        13654</span></div>
+                <div> <img src="call.svg" alt=""><span>+1 452 125 487 366</span></div>
+                <div> <img src="mail.svg" alt=""><span>info@flavoro.com</span></div>
+
+            </div>
+            <div class="fourth">
+                <h3 class="headinglast">OPENING HOURS</h3>
+                <p>Monday - Friday </p>
+                <p>10:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday </p>
+                <p>09:00 AM - 11:00 PM</p>
+            </div>
+        </footer>
+        <div class="last">@ 2026 FLAVORO, All Rights Reserved.</div>
+        <div class="whatsAppContact"><button class="whatsapp">WhatsApp</button></div>
+        <div class="status"></div>
+
+    </div>
+    <script src="Restaraunt_Website.js"></script>
+</body>
+
+</html>
