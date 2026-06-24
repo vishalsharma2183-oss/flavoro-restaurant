@@ -5,7 +5,7 @@ navlinks.forEach(a=>{
     a.addEventListener("click",()=>{
         navs.classList.toggle("show")
           hamburger.innerHTML=""
-        hamburger.innerHTML="X"
+        hamburger.innerHTML=`<img src="hamburger.svg" alt="">`
     })
 })
 hamburger.addEventListener("click",()=>{
