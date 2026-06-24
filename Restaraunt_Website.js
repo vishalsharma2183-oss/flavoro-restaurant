@@ -4,6 +4,8 @@ const navlinks=document.querySelectorAll(".navs a")
 navlinks.forEach(a=>{
     a.addEventListener("click",()=>{
         navs.classList.toggle("show")
+          hamburger.innerHTML=""
+        hamburger.innerHTML="X"
     })
 })
 hamburger.addEventListener("click",()=>{
