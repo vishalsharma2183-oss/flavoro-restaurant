@@ -1,5 +1,11 @@
 const hamburger=document.querySelector(".hamburger")
 const navs=document.querySelector(".navs")
+const navlinks=document.querySelectorAll(".navs a")
+navlinks.forEach(a=>{
+    a.addEventListener("click",()=>{
+        navs.classList.toggle("show")
+    })
+})
 hamburger.addEventListener("click",()=>{
     navs.classList.toggle("show")
     if(navs.classList.contains("show"))
